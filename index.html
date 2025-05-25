@@ -7,13 +7,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<button id="toggleTheme">🌗 Toggle Dark Mode</button>
   <div class="container">
     <h1>Color Picker</h1>
     <input type="color" id="colorInput" />
     <p>Hex: <span id="hexCode">#000000</span></p>
     <p>RGB: <span id="rgbCode">rgb(0, 0, 0)</span></p>
     <button id="copyBtn">Copy Hex</button>
-  </div>
-  <script src="script.js"></script>
+<button id="saveBtn">Save Color</button>
+<div id="favorites">
+  <h3>Favorites:</h3>
+  <div id="favColors"></div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
+
